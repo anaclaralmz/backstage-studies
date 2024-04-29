@@ -1,8 +1,8 @@
 # Deploying Backstage on Docker
 ## Conceitos e tecnologias aprendidas
-- Docker:
-- Backstage:
-- Catálogo de Serviços:
+- **Docker**: permite empacotar, distribuir e executar aplicativos em ambientes isolados, tornando o desenvolvimento e a implantação mais rápidos e consistentes;
+- **Backstage**: refere-se aos processos internos e recursos necessários para fornecer serviços;
+- **Catálogo de Serviços**: descreve os serviços oferecidos por uma organização, detalhando as características, os custos, os requisitos e os benefícios associados a cada serviço.
 ## Processo de compilação e execução da ferramenta
 A fim de construir um catálogo de serviços utilizando a ferramenta Backstage, foi utilizada uma abordagem de implantação do frontend e o back-end de uma aplicação como duas imagens separadas em Docker. Essa abordagem torna a arquitetura da aplicação mais modular, com componentes desacoplados e com uma implantação mais flexível.
 ### Passo-a-passo da implantação da ferramenta:
@@ -146,9 +146,3 @@ inject_config
 - Aplicação rodando em ```localhost:3000```
 ![aplicacao rodando](assets/d.png)
 ![aplicacao rodando](assets/c.png)
-
-
-
-
-
-
